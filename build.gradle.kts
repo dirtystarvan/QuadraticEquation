@@ -15,6 +15,7 @@ tasks.test {
 
 dependencies {
     implementation(kotlin("stdlib"))
+    implementation(kotlin("reflect"))
 
     testImplementation(kotlin("test"))
 }
